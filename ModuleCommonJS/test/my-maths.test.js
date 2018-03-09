@@ -5,8 +5,7 @@ try {
   assert.strictEqual(myMaths.sum(1, 2), 3);
   assert.strictEqual(myMaths.sum('1', '2'), 3);
   console.log('Les tests de my-maths passent');
-}
-catch (err) {
+} catch (err) {
   console.error('Les tests de my-maths échouent');
   console.error(err.stack);
 }
