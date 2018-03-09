@@ -18,8 +18,8 @@ console.log('fin');
 // |
 // |
 // |                                                 idle  log(cb2)        log(cb1)    log(cb3)
-// |setTimeout - setTimeout - setTimeout - log(fin) ...... cb2      ...... cb1      -  cb3
+// |setTimeout - setTimeout - setTimeout - log(fin) ..⟳.. cb2      ..⟳.. cb1      -  cb3
 // +-------------------------------------------------------500ms-----------1s----------1s0002------> temps
 // sortie:                                 fin             cb2             cb1         cb3
 
-// file d'attente :
+// file d'attente : 
