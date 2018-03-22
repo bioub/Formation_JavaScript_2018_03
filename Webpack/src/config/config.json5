@@ -1,0 +1,5 @@
+{
+  horloge: {
+    format: 'HH:mm:ss', // Le format de l'horloge
+  },
+}

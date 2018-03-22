@@ -12,7 +12,7 @@ function externe(msg) {
 
 const hello = externe('Hello');
 
-hello();
+hello(); // Hello
 
 // pile d'appels
 // ^

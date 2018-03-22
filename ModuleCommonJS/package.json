@@ -3,13 +3,13 @@
     "chalk": "^2.3.2"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
-    "husky": "^0.15.0-rc.8",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
     "prettier": "^1.11.1"
   },
   "scripts": {
-    "prettier": "prettier '**/*.{js,json}' --write ",
+    "prettier": "prettier '**/*.{js,json}' --write",
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
     "test": "node launch-tests.js"
@@ -18,7 +18,9 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "post-checkout": "npm install",
-      "post-pull": "npm install"
+      "post-pull": "npm install",
+      "post-rebase": "npm install",
+      "post-merge": "npm install"
     }
   },
   "lint-staged": {

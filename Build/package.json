@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "del": "^3.0.0",
+    "fs-extra": "^4.0.2",
+    "http-server": "^0.10.0",
+    "md5": "^2.2.1",
+    "uglify-es": "^3.1.10"
+  },
+  "scripts": {
+    "serve:dev": "hs src",
+    "serve:prod": "hs dist",
+    "build:dev": "node build.js",
+    "build:prod": "node build.js --minify"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
