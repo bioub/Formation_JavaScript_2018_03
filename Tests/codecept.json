@@ -1,0 +1,15 @@
+{
+  "tests": "./e2e/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "show": true,
+      "url": "https://www.cmonsite.fr"
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "Tests"
+}
